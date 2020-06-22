@@ -1,0 +1,99 @@
+.widget-left-menu--blue .widget-left-menu__layout,
+.widget-left-menu--brown .widget-left-menu__layout {
+    border-bottom: 2px solid #95da17 !important;
+}
+
+.widget-left-menu__links--compact .widget-left-menu__layout--blue,
+.widget-left-menu__links--compact .widget-left-menu__layout--brown {
+    border-top: 2px solid #95da17 !important;
+}
+
+.widget-left-menu__links--compact .widget-left-menu__layout--blue div,
+.widget-left-menu__links--compact .widget-left-menu__layout--brown div,
+.widget-left-menu__links--compact .widget-left-menu__layout--blue a,
+.widget-left-menu__links--compact .widget-left-menu__layout--brown a {
+    display: none
+}
+
+.moon {
+    float: left;
+    margin-top: 3px;
+    margin-left: 3.3%;
+    padding: 0 !important;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(top, #010f26, rgba(1, 15, 38, 0.56));
+    background-image: linear-gradient(to bottom, #010f26, rgba(1, 15, 38, 0.56));
+    position: relative;
+    width: 225px !important;
+    height: 263.69px !important;
+    color: white;
+    margin: 0 10% 0 0 !important;
+}
+
+.content-moon {
+    float: left;
+    height: 58px;
+    width: 100%;
+    padding: 10px 0 0;
+    background-image: -webkit-linear-gradient(top, #010f26, rgba(1, 15, 38, 0.56));
+    background-image: linear-gradient(to bottom, #010f26, rgba(1, 15, 38, 0.56));
+    border-radius: 5px;
+}
+
+.box-moon {
+    width: 100%;
+    height: 165.69px;
+    background: linear-gradient(to bottom, white, #ffffffab, transparent);
+}
+
+.moonLight-status {
+    height: 40.69px;
+    width: 100%;
+    padding: 5px 20px;
+    background-image: -webkit-linear-gradient(top, #010f26, rgba(1, 15, 38, 0.56));
+    background-image: linear-gradient(to bottom, #010f26, rgba(1, 15, 38, 0.56));
+    border-radius: 5px;
+}
+
+div.box-moon svg {
+    width: 60% !important;
+    height: 60% !important;
+}
+
+.div-week {
+    font-size: 15px !important;
+    padding: 0 20px;
+}
+
+.widget-left {
+    background: linear-gradient(to bottom, white, #ffffffab, #00000057) !important;
+}
+
+@media screen and (max-width: 800px) {
+    .img-perfil-no-main {
+        width: 40%;
+    }
+    #plugins_no_main {
+        width: 100%;
+        padding: 0;
+    }
+    .moon {
+        padding: 0 !important;
+        width: 100% !important;
+        margin: 0 0 20px !important;
+    }
+    .content-moon,
+    .moonLight-status {
+        margin: 0;
+    }
+    .box-moon {
+        position: relative !important;
+    }
+    .widget-left--compact,
+    .widget-left__body--compact,
+    .widget-left-menu--compact,
+    .widget-left-menu__links--compact {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}

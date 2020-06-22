@@ -1,0 +1,129 @@
+/* body,
+input,
+textarea,
+keygen,
+select,
+button,
+div,
+article,
+label,
+span,
+p,
+aside,
+section {
+    -webkit-transition: background 0.7s linear, font-size 0.7s linear;
+    transition: background 0.7s linear, font-size 0.7s linear
+} */
+
+:root .accessibility-contrast {
+    /* COLORS */
+    --current: #1d1f34;
+    --current-rgba: rgb(26, 29, 55, 0.5);
+    --current-one: #15172c;
+    --current-two: #111223;
+    --current-three: #0e0e1c;
+    --hcurrent: #17192a;
+    --hcurrent-rgba: rgb(26, 29, 55, 0.5);
+    --hcurrent-one: #111223;
+    --hcurrent-two: #0e0e1c;
+    --hcurrent-three: #0b0b16;
+    --inver: #1d2242;
+    /*  */
+    --contrast: #46552b;
+    --contrast-one: #45512f;
+    --contrast-two: #444e32;
+    --contrast-three: #434b35;
+    /*  */
+    --light: #272935;
+    --light-one: #1e212a;
+    --light-two: #181a22;
+    --light-three: #13151b;
+    /*  */
+    --primary: #007bff;
+    --primary-one: #0062cc;
+    --primary-two: #004ea3;
+    --primary-three: #003e82;
+    /*  */
+    --black: #d3d3d3;
+    --black-one: #efefef;
+    --black-two: #dcdcdc;
+    --black-three: #cecece;
+    /*  */
+    --shadow: rgba(0, 0, 0, 0.2);
+    --shadow-one: rgba(0, 0, 0, 0.3);
+    --shadow-two: rgba(0, 0, 0, 0.4);
+    --shadow-three: rgba(0, 0, 0, 0.5);
+    /*  */
+    --success: #28a745;
+    --success-one: #28a745;
+    --success-two: #28a745;
+    --success-three: #28a745;
+    /*  */
+    --info: #00b2d2;
+    --info-one: #15a3bd;
+    --info-two: #118297;
+    --info-three: #1e798a;
+    /*  */
+    --warning: #ffc107;
+    --warning-one: #d29d00;
+    --warning-two: #ffd148;
+    --warning-three: #ffdc31;
+    /*  */
+    --danger: #f12034;
+    --danger-one: #cd0d1f;
+    --danger-two: #a40a19;
+    --danger-three: #951925;
+    /*  */
+    --button: #222a5b;
+    --colorButton: #6975ba;
+    /*  */
+    --bg-nav: #c2c5eb;
+    --co-nav: #293058;
+}
+
+:root .accessibility-font {
+    --large: x-large;
+    --larger: large;
+    --medium: medium;
+    --small: medium;
+    --smaller: small;
+    --sm: smaller;
+    --xsm: x-small;
+    --xl: xx-large;
+    --xxl: -webkit-xxx-large;
+}
+
+.accessibility-contrast .highcharts-pane {
+    fill: var(--light-one);
+    stroke: var(--light-two);
+}
+
+.accessibility-contrast .highcharts-axis-labels text,
+.accessibility-contrast .highcharts-yaxis-labels text {
+    fill: var(--black) !important;
+}
+
+.accessibility-contrast .highcharts-tracker span,
+.accessibility-contrast .chart tr {
+    color: var(--black-two) !important;
+}
+
+.accessibility-contrast [data-chart="line"] .highcharts-plot-band {
+    fill: var(--current-rgba) !important;
+}
+
+.accessibility-contrast .highcharts-axis-title {
+    fill: var(--black-one) !important;
+}
+
+.accessibility-contrast .highcharts-legend-item text {
+    fill: var(--black-three) !important;
+}
+
+.accessibility-contrast .bg-light {
+    background-color: var(--current-rgba) !important;
+}
+
+.accessibility-contrast .dataTables_wrapper .dataTables_paginate .paginate_button {
+    filter: invert(1);
+}
